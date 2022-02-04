@@ -1,0 +1,21 @@
+body {
+  background-color: lightblue;
+}
+div {
+  font-size: 20px;
+}
+h2 {
+  text-decoration: underline;
+}
+#p1 {
+  color: navy;
+}
+#p2 {
+  text-transform: uppercase;
+}
+#sp1 {
+  font-style: italic;
+}
+#sp2 {
+  font-style: italic;
+}

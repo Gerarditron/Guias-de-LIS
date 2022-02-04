@@ -1,0 +1,16 @@
+body {
+  background-color: #260026;
+  display: flex;
+  justify-content: center;
+}
+table {
+  background-color: #cc99cc;
+  width: 50%;
+  margin: 25px;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 30px;
+}
+td {
+  padding: 10px;
+}

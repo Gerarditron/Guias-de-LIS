@@ -1,0 +1,56 @@
+body {
+  font: 16px;
+  margin: 0;
+  background-color: #80858e;
+}
+#hor-zebra {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 16px;
+  margin: 45px;
+  width: 480px;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+#hor-zebra td {
+  color: #669;
+  line-height: 1.6em;
+  padding: 14px;
+}
+
+#hor-zebra .thead {
+  background: #2e3d66;
+}
+
+#hor-zebra .thead th {
+  border-radius: 5px;
+  padding: 16px 18px;
+  color: #fcec33;
+  font: Bold 16px "Lucida Sans Unicode", Helvetica, Sans-Serif;
+}
+
+#hor-zebra .backColor {
+  background: #e8edff;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.mainBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.picture {
+  height: 350px;
+  width: 320px;
+  border-radius: 10px;
+  box-shadow: 5px 6px black;
+}
+.mainTable {
+  margin: 45px;
+  width: 560px;
+}

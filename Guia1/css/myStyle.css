@@ -1,0 +1,103 @@
+body {
+  background-color: #b4fbf8;
+  display: flex;
+  flex-direction: column;
+}
+/*Creando el Header*/
+#header {
+  background-color: #002134;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 90px;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+.headerRightText {
+  background-color: #002134;
+  color: white;
+  border-radius: 5px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  font-size: 34px;
+  text-align: right;
+  right: 0;
+  margin-right: 10px;
+  padding-right: 20px;
+  padding-left: 10px;
+  box-shadow: 2px 2px 3px 3px;
+}
+.headerLeftText {
+  color: white;
+  font-size: 56px;
+  font-weight: bold;
+  padding-left: 46px;
+  float: left;
+}
+/*Trabajando el SlideShow*/
+#slideshowBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 120px;
+}
+.slides {
+  background-color: #003f63;
+  margin: 5px;
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+}
+.text {
+  color: #f2f2f2;
+  margin-top: 20px;
+  font-size: 28px;
+  text-align: center;
+}
+.imgSize {
+  height: 430px;
+  width: 400px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px 2px;
+  color: white;
+}
+/*Creando la descripcion*/
+#description {
+  background-color: #0b6261;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-left: 70px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+.details {
+  margin-left: 120px;
+  margin-right: 120px;
+  color: white;
+  font-size: 28px;
+  text-align: justify;
+}
+/*Creando el footer*/
+#footer {
+  background-color: #002134;
+  color: white;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 90px;
+  align-items: center;
+  justify-content: center;
+  bottom: -370px;
+  left: 0;
+}

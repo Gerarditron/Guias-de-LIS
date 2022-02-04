@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/formulario.css">
+        <script src="js/validarNumeros.js"></script>
+    </head>
+    <body>
+        <form action="conversion.php" method="POST" class="formBox">
+            <label class="title">Convertidor de Dolares a Euros</label>
+            <label class="description">Digite un valor en dolares, para recibir la conversion de su valor en euros.</label>
+            <span id="soloNumeros" class="error">> Ingrese solo numeros por favor <</span>
+            <div class="inputBox">
+                <label>Dolares:</label>
+                <input type="text" id="dolar" name="dolar" class="input"/>
+            </div>
+            <div style="display: flex; justify-content: center;">
+                <input type="submit" id="enviar" name="submit" value="Enviar" class="enviar">
+            </div>
+        </form>
+    </body>
+</html>
