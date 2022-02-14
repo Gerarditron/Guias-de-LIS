@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Comparar Numeros</title>>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0" />
+    <meta http-equiv="Content-Script-Type" context="text/javascript" />
+    <link href="http://fonts.googleapis.comn/css?family=Muli" rel="stylesheet">
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/formstyle.css" />
+    <srcipt src="js/validar.js"></srcipt>
+</head>
+<body>
+    <header>
+        <h1>Comparacion de Numeros</h1>
+    </header>
+    <section>
+        <article id="formarea">
+            <form name="frmpalabras" method="POST" action="compararnum.php">
+                <fieldset>
+                    <label for="number1">Primer Numero: </label>
+                    <input type="text" name="numero1" id="number1" placeholder="Primer Numero" />
+                    <br />
+                    <span id="numbersOnly1">Ingrese Numeros Enteros</span>
+                    <label for="number2">Segundo Numero: </label>
+                    <input type="text" name="numero2" id="number2" placeholder="Segundo Numero" />
+                    <br />
+                    <span id="numbersOnly2">Ingrese Numeros Enteros</span>
+                    <label for="number3">Tercer Numero: </label>
+                    <input type="text" name="numero3" id="number3" placeholder="Tercer Numero" />
+                    <br />
+                    <span id="numbersOnly3">Ingrese Numeros Enteros</span>
+                    <input type="submit" name="conteo" id="count" value="Enviar" />
+                </fieldset>
+            </form>
+        </article>
+    </section>
+</body>
+</html>
