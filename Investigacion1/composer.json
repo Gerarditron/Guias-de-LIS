@@ -1,0 +1,21 @@
+{
+    "name": "cdavi/investigacion1",
+    "description": "Tarea de investigacion 1 para lenguaje interpretado en el servidor",
+    "autoload": {
+        "psr-4": {
+            "Model\\": "src/Model",
+            "Controller\\": "src/Controller",
+            "View\\": "src/View",
+            "MVC\\":"./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Carlos1200",
+            "email": "carlos1200herrera@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}

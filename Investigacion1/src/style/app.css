@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.table-responsive {
+ @apply overflow-x-auto overflow-y-auto h-96;
+}
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #334155 #1E293B;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #1E293B;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #334155;
+    border-radius: 20px;
+    border: 3px solid #1E293B;
+  }
